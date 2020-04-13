@@ -1,0 +1,40 @@
+<!DOCTYPE html>	
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Filme</title>
+</head>
+<body>
+	<h1>Filme</h1>
+	<p>Digite o Código do filme para mostar os seus dados.</p>
+	<form action="manter_filmes.do" method="get">
+		<label>Id Exibir: </label>
+		<input type="text" name="id_filme"/>
+		<input type="submit" name="acao" value="mostrar">
+	</form>
+	<form action="manter_filmes.do" method="get">
+		<h1>Atualizar Filme</h1>
+		<p>Digite o código do filme para atualizar seus dados.</p>
+		<label>Id do filme: </label>
+		<input type="text" name="id_atualizar"/>
+		<input type="submit" name="acao" value="page_atualizar">
+	</form>
+	
+	<form action="manter_filmes.do" method="get">
+	<h1>Deletar Filme</h1>
+	<p>Digite o Código do filme que deseja excluir.</p>
+	<label>Id Excluir: </label>
+	<input type="text" name="id_excluir"/>
+	<input type="submit" name="acao" value="excluir">
+	</form>
+	
+	<form action="manter_filmes.do" method="get">
+	<h1>Listar Filmes</h1>
+	<p>Digite o Código do filme que deseja excluir.</p>
+	<label>Id do filme </label>
+	
+	<input type="submit" name="acao" value="filmes">
+	</form>
+	
+</body>
+</html> 
